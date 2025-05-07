@@ -1,5 +1,32 @@
 # Weather-Advisor
+**Weather Advisor** is a versatile weather forecasting tool that combines the power of data visualization and natural language processing (NLP) to provide accurate and insightful weather information. The application offers a user-friendly interface with two main interaction modes: **Dashboard** and **Chatbot**, allowing users to choose their preferred way to access weather data.
+
+## 📌 Features:
+- **Hybrid Interface:** Seamlessly switch between the **Dashboard** and **Chatbot** modes.
+- **Weather Forecasting:** Get weather data for today, tomorrow, or the next few days.
+- **Customizable Queries:** Use natural language to ask about temperature, humidity, wind speed, precipitation, and more.
+- **Dynamic Visualizations:** Interactive charts for temperature trends and precipitation patterns.
+
+## 🛠️ Technology Stack:
+- **Python:** Core programming language.
+- **Jupyter Notebook:** Interactive development environment.
+- **pandas:** Data manipulation and analysis.
+- **spaCy:** NLP for parsing user queries.
+- **Matplotlib, Seaborn, Plotly:** Data visualization.
+- **IPyWidgets:** Interactive UI components.
+- **WeatherAPI:** Real-time weather data.
+
+## 🚀 How It Works:
+1. **Setup:** The user selects the city and forecast period via the dashboard or types a natural language query in the chatbot.
+2. **Data Fetching:** The application retrieves weather data from the OpenWeather API.
+3. **Data Processing:** Extracts relevant weather attributes (temperature, humidity, precipitation, etc.).
+4. **Visualization:** Dynamically generated charts provide a visual representation of weather trends.
+5. **Natural Language Response:** The chatbot interprets questions and returns concise, accurate answers.
+
 ## Prerequisites
+- Python 3.8+
+- Jupyter Notebook
+- OpenWeather API key (add to `.env` file)
 
 Before running the Weather Advisor application, you'll need to get an API key from [WeatherAPI](https://www.weatherapi.com/) and set up the environment file (`.env`).
 
